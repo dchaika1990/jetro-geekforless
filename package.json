@@ -1,8 +1,8 @@
 {
-  "name": "HW 1",
+  "name": "jetro-geekforless",
   "version": "1.0.0",
-  "description": "Home Work for geekforless",
-  "author": "Dmitriy Chaika <chaika1990@gmail.com>",
+  "description": "Home Work 1",
+  "author": "Dmitriy Chaika <dchaika1990@gmail.com>",
   "main": "src/index.js",
   "license": "ISC",
   "browserslist": [
