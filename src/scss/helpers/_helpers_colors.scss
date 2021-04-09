@@ -33,6 +33,13 @@
   }
 }
 
+.links-light{
+  color: $lightColor!important;
+  &:hover{
+    color: $colorMain2!important;
+  }
+}
+
 .color-dark {
   color: $colorDark;
 }
