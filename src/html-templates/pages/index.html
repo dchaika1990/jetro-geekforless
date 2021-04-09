@@ -1,0 +1,179 @@
+<% var data = {
+title: "Home page",
+}; %>
+
+<%= _.template(require('./../includes/page_top.html').default)(data) %>
+<%= _.template(require('./../includes/headers/header.html').default)(data) %>
+
+<section class="grid-container slider">
+    <div id="main-slider" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="img/slide-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-2.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-3.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-4.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-5.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-6.jpg" alt="#">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="second-slider" class="splide mt-20">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="img/slide-1-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-2-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-3-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-4-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-5-1.jpg" alt="#">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-6-1.jpg" alt="#">
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="divider-40"></div>
+
+<section class="grid-container grid-cols-lg-3 gap-30">
+    <div class="icon-box">
+        <div class="icon-box-header">
+            <img src="img/icon1.png" alt="icon">
+            <h4 class="color-main mt-0">Check out my latest portfolio items</h4>
+        </div>
+        <div class="icon-box-body">
+            <p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+                magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+                varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+        </div>
+        <div class="icon-box-footer">
+            <a class="btn btn-maincolor" href="#">more</a>
+        </div>
+    </div>
+    <div class="icon-box">
+        <div class="icon-box-header">
+            <img src="img/icon2.png" alt="icon">
+            <h4 class="color-main mt-0">Offer Top Notch Quality Work & Services</h4>
+        </div>
+        <div class="icon-box-body">
+            <p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+                magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+                varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+        </div>
+        <div class="icon-box-footer">
+            <a class="btn btn-maincolor" href="#">more</a>
+        </div>
+    </div>
+    <div class="icon-box">
+        <div class="icon-box-header">
+            <img src="img/icon3.png" alt="icon">
+            <h4 class="color-main mt-0">Follow Me on Twitter, Facebook & Pinterest</h4>
+        </div>
+        <div class="icon-box-body">
+            <p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+                magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+                varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+        </div>
+        <div class="icon-box-footer">
+            <a class="btn btn-maincolor" href="#">more</a>
+        </div>
+    </div>
+</section>
+
+<div class="divider-50"></div>
+
+<section class="grid-container ls">
+    <div class="grid-cols-1 mb-20">
+        <h4 class="special-header special-header-pattern color-main">
+            <span>Recent Works</span>
+        </h4>
+    </div>
+    <div class="grid-cols-lg-4 grid-cols-sm-2 gap-20">
+        <div class="cart">
+            <div class="cart-media">
+                <a href="#">
+                    <img src="img/post1.jpg" alt="cart">
+                </a>
+            </div>
+            <div class="cart-content">
+                <div class="cart-title">
+                    <h5><a href="#">Character Design</a></h5>
+                </div>
+                <div class="cart-date">
+                    <h6><a href="#" class="links-maincolor">June 15, 2012</a></h6>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-media">
+                <a href="#">
+                    <img src="img/post2.jpg" alt="cart">
+                </a>
+            </div>
+            <div class="cart-content">
+                <div class="cart-title">
+                    <h5><a href="#">Brochure Design</a></h5>
+                </div>
+                <div class="cart-date">
+                    <h6><a href="#" class="links-maincolor">June 15, 2012</a></h6>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-media">
+                <a href="#">
+                    <img src="img/post3.jpg" alt="cart">
+                </a>
+            </div>
+            <div class="cart-content">
+                <div class="cart-title">
+                    <h5><a href="#">Social Media Buttons</a></h5>
+                </div>
+                <div class="cart-date">
+                    <h6><a href="#" class="links-maincolor">June 15, 2012</a></h6>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-media">
+                <a href="#">
+                    <img src="img/post4.jpg" alt="cart">
+                </a>
+            </div>
+            <div class="cart-content">
+                <div class="cart-title">
+                    <h5><a href="#">10 Amazing Websites</a></h5>
+                </div>
+                <div class="cart-date">
+                    <h6><a href="#" class="links-maincolor">June 15, 2012</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%= _.template(require('./../includes/footers/footer.html').default)(data) %>
+<%= _.template(require('./../includes/page_bottom.html').default)(data) %>
